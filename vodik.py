@@ -1,6 +1,33 @@
 
 import streamlit as st
+st.markdown("""
+<style>
+.stApp {
+    background-color: #0b1020;
+    color: #f5f7fb;
+}
 
+[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+h1, h2, h3, p, label, span, div {
+    color: #f5f7fb !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #93c5fd !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #d1d5db !important;
+}
+
+.stAlert {
+    background-color: #1f2937;
+}
+</style>
+""", unsafe_allow_html=True)
 st.set_page_config(
     page_title="Vodíkový stratég ČR",
     page_icon="⚡",
