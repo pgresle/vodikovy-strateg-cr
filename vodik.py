@@ -7,8 +7,7 @@ st.markdown("""
     color: #f5f7fb;
 }
 
-[data-testid="stSidebar"] {
-    background-color: #111827;
+
 }
 
 h1, h2, h3, p, label, span, div {
